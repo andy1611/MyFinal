@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormStore"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/txtidTienda"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="ID"
+        android:textSize="20dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <EditText
+        android:id="@+id/txtNombreTienda"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Nombre"
+        android:textSize="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/txtDireccionTienda"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Direccion"
+        android:textSize="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <EditText
+        android:id="@+id/txtLatitudTienda"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Latitud"
+        android:textSize="20dp"
+        android:inputType="numberDecimal"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/txtLongitudTienda"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Longitud"
+        android:textSize="20dp"
+        android:inputType="numberDecimal"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/txtDescripcionTienda"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Descripcion"
+        android:textSize="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAceptar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Aceptar"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Cancelar"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>
